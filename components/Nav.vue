@@ -49,10 +49,13 @@
         flex-flow: column;
     }
     .nav button{
-        color: white;
         position: absolute;
         right: 2.5rem;
         top: 2.5rem;
+    }
+    .nav button .equis{
+        color: white;
+        background-color: white;
     }
 
 </style>

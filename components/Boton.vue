@@ -1,13 +1,12 @@
 <script setup>
     const props = defineProps({
-        text : String,
-        colorBoton : String
+        text : String
     })
 </script>
 
 <template>
     <button>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined equis">
             {{ text }}
         </span>
     </button>
@@ -15,15 +14,16 @@
 
 <style scoped>
     button{
-        background-color: #00000000;
         border: 0;
-        color: #333333;
         transition: 200ms ease-in-out;
         padding: 0;
-        opacity: 60%;
+        opacity: 80%;
+        background-color: #00000000;
     }
     button:hover{
-        color: #333333;
         opacity: 100%;
     }
+    /* button span{
+        color: red;
+    } */
 </style>

@@ -1,38 +1,16 @@
-<script setup>
-</script>
 <template>
+    <div>
+        <Nav />
+        <Header />
+    </div>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <div class="secnormal">
-        <div class="centradora">
-        </div>
-    </div>
 </template>
-<style scoped>
-.secnormal {
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    /* border: 1px salmon solid; */
-    /* justify-content: center; */
-    padding: 2rem;
-    background-color: darkcyan;
-    justify-content: center;
-}
-
-.secnormal .centradora {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    align-items: start;
-    /* background-color: mediumaquamarine; */
-    max-width: 50rem;
-}
-
+<style>
 * {
     font-family: "Urbanist", Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
