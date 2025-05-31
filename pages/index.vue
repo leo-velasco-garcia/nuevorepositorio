@@ -4,15 +4,35 @@
         })
 </script>
 <template>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <div class="divlanding"> 
+        <img src="/entrada.gif" alt="Logotipo de Cesida">
+        <NuxtLink to="/definicion">Manual de Identidad</NuxtLink>
+    </div>
 </template>
 <style scoped>
-
+.divlanding{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+img{
+    width: 100vw;
+    max-width: 40rem;
+}
+a{ 
+    font-weight: 400;
+    text-decoration: none ;
+    transform: scale(97%);
+    transition: 300ms ease-out;
+    font-size: 1.2rem;
+}
+a:hover{
+    transform: scale(100%);
+    font-weight: 600;
+}
 * {
     font-family: "Urbanist", Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;

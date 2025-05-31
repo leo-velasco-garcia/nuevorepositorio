@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="nombres">
-            <NavHdos text="Daniel Anzar"/>
+            <NavHdos text="Daniel Aznar"/>
             <NavHdos text="Jorge Blas"/>
             <NavHdos text="Leo Velasco"/>
         </div>

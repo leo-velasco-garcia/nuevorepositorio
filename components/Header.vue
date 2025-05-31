@@ -4,7 +4,7 @@
 </script>
 <template>
     <header class="header">
-        <img :src="logoheader" alt="Logotipo de Cesida">
+        <NuxtLink to="/"><img :src="logoheader" alt="Logotipo de Cesida"></NuxtLink>
         <Boton text="menu" sol="material-symbols-outlined"/>
 
     </header>
