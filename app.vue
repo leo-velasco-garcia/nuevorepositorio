@@ -9,15 +9,19 @@
   <div>
     <Nav />
     <Header />
-    <Body />
+    <NuxtPage/>
   </div>
 </template>
-<style scoped>
+<style>
   *{
     font-family: "Urbanist", Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
     color: #333333;
     box-sizing: border-box;
+  }
+  .nav .enlaces .router-link-active h3{
+    color: #f18c79;
+    opacity: 100%;
   }
 </style>

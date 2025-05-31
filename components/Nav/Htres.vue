@@ -4,24 +4,21 @@
     })
 </script>
 <template>
-    <a href="">
-        <h3>{{ text }}</h3>
-    </a>
+    <h3>{{ text }}</h3>
 </template>
 <style scoped>
-    a{
-        text-decoration: none;
-        color: #333;
-        opacity: 80%;
-        transition: 200ms ease-in-out;
-    }
-    a:hover{
-        opacity: 100%;
-    }
-    a h3{
+    h3{
         font-size: 1.44rem;
         line-height: 1.75rem;
-        font-weight: 600;
+        font-weight: 400;
         margin: 0;
+        text-decoration: none;
+        color: white;
+        opacity: 80%;
+        transition: 300ms ease-out;
+    }
+    h3:hover{
+        opacity: 100%;
+        font-weight: 600;
     }
 </style>

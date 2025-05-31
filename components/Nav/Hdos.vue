@@ -8,6 +8,7 @@
 </template>
 <style scoped>
     h2{
+        color: white;
         font-size: 1rem;
         text-transform: uppercase;
         font-weight: 600;
