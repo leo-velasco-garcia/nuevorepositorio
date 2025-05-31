@@ -44,6 +44,11 @@
         flex-flow: column;
         gap: 1rem;
     }
+    .nav .arriba .enlaces{
+        display: flex;
+        flex-flow: column;
+        gap: 0.25rem;
+    }
     .nav .nombres{
         display: flex;
         flex-flow: column;
