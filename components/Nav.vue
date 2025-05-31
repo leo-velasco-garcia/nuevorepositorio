@@ -2,7 +2,7 @@
 </script>
 <template>
     <nav class="nav">
-        <Boton text="close"/>
+        <Boton text="close" sol="material-symbols-outlined blanco"/>
         <div class="arriba">
             <NavHdos text="Manual de marca"/>
             <div class="enlaces">

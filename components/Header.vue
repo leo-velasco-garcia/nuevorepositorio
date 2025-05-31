@@ -5,7 +5,7 @@
 <template>
     <header class="header">
         <img :src="logoheader" alt="Logotipo de Cesida">
-        <Boton text="menu"/>
+        <Boton text="menu" sol="material-symbols-outlined"/>
 
     </header>
 </template>

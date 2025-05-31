@@ -1,12 +1,13 @@
 <script setup>
     const props = defineProps({
-        text : String
+        text : String,
+        sol : String
     })
 </script>
 
 <template>
     <button>
-        <span class="material-symbols-outlined equis">
+        <span :class="sol">
             {{ text }}
         </span>
     </button>
@@ -26,4 +27,7 @@
     /* button span{
         color: red;
     } */
+    .blanco{
+        color: white;
+    }
 </style>
