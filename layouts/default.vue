@@ -57,6 +57,7 @@
     width: 100%;
     align-items: start;
     background-color: white;
-    max-width: 55rem;
+    max-width: 60rem;
+    height: fit-content;
 }
 </style>

@@ -8,9 +8,12 @@
 </template>
 <style scoped>
     h4{
-        font-size: 1.44rem;
-        line-height: 1.75rem;
-        margin: 0 0 0.25rem 0;
-        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin: 0.75rem 0 0.25rem 0;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #5f5f5f;
     }
+
 </style>
