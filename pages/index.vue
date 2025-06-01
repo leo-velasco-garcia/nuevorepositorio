@@ -1,6 +1,6 @@
 <script setup>
     definePageMeta({
-        layout: 'headerLess'
+        layout: 'headerless'
         })
 </script>
 <template>

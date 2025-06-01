@@ -1,8 +1,13 @@
 <script setup>
+    import { inject } from 'vue';
+    const patata = inject('patata')
+    function togglePatata() {
+        patata.value = !patata.value
+    }
 </script>
 <template>
     <nav class="nav">
-        <Boton text="close" sol="material-symbols-outlined blanco"/>
+        <Boton text="close" sol="material-symbols-outlined blanco" @click="togglePatata"/>
         <div class="arriba">
             <NavHdos text="Manual de marca"/>
             <div class="enlaces">

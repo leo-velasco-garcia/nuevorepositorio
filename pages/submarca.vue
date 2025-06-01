@@ -1,3 +1,3 @@
 <template>
-    <!-- <div style="position: absolute; height: 100vh; width: 100vw; background-color: darkgoldenrod;"></div> -->
+    <BodyHdos text="Submarca"/>
 </template>

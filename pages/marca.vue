@@ -1,3 +1,3 @@
 <template>
-    <!-- <div style="position: absolute; height: 100vh; width: 100vw; background-color: khaki;"></div> -->
+    <BodyHdos text="Marca"/>
 </template>

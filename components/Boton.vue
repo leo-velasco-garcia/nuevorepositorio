@@ -30,4 +30,7 @@
     .blanco{
         color: white;
     }
+    .none{
+        display: none;
+    }
 </style>

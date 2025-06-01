@@ -1,3 +1,3 @@
 <template>
-    <!-- <div style="position: absolute; height: 100vh; width: 100vw; background-color: green;"></div> -->
+    <BodyHdos text="Espaciado" />
 </template>

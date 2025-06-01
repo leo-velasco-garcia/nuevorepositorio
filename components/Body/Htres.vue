@@ -11,5 +11,6 @@
         font-size: 1.72rem;
         line-height: 2rem;
         margin: 0.5rem 0 0.5rem 0;
+        font-weight: 600;
     }
 </style>
