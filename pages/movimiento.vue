@@ -1,6 +1,7 @@
 <template>
     <BodyHdos text="Movimiento"/>
     <BodyHtres text="Físicas" />
+    <BodyImagen text="/movimiento/COSAS PARA MANUAL CESIDA-53.png" />
     <BodyHtres text="Sistema" />
     <BodyHcuatro text="Tipos de entrada" />
     <BodyHcuatro text="Tipos de salida" />
