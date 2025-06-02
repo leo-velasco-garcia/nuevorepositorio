@@ -1,13 +1,9 @@
 <template>
     <BodyHdos text="Tipografía"/>
     
-    <BodyHtres text="Tipografía del imagotipo" />
+    <BodyHtres text="Texto corrido" />
     
-    <BodyHtres text="Tipografía texto corrido" />
-    
-    <BodyHtres text="Tipografía Web" />
-    
-    <BodyHtres text="Tipografía del imagotipo" />
+    <BodyHtres text="Estilos web" />
     
     <BodyHtres text="Comportamiento en aplicaciones estáticas" />
     

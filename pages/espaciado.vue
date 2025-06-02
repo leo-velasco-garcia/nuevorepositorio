@@ -5,5 +5,5 @@
     
     <BodyHtres text="Retículas" />
     
-    <BodyHtres text="Uso de márgenes en video" />
+    <BodyHtres text="Uso de márgenes en vídeo" />
 </template>

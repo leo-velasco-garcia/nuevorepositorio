@@ -3,7 +3,7 @@
     
     <BodyHtres text="Formas" />
     
-    <BodyHtres text="Patterns" />
+    <BodyHtres text="Patrones" />
     
     <BodyHtres text="Iconos" />
 </template>

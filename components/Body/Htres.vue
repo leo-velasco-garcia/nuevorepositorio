@@ -1,10 +1,11 @@
 <script setup>
     const props = defineProps({
-        text : String
+        text : String,
+        ident : String
     })
 </script>
 <template>
-    <h3>{{ text }}</h3>
+    <h3 :id="ident">{{ text }}</h3>
 </template>
 <style scoped>
     h3{
