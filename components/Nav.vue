@@ -1,13 +1,15 @@
 <script setup>
-    import { inject } from 'vue';
-    const patata = inject('patata')
+    import { ref, computed, inject } from 'vue';
+    const estaabiertoelnav = inject('estaabiertoelnav')
+    const displayequis = computed(() => estaabiertoelnav.value ? 'material-symbols-outlined blanco' : 'material-symbols-outlined blanco none');
+    const displaynav = computed(() => estaabiertoelnav.value ? 'nav' : 'nav nomuestra');
     function togglePatata() {
-        patata.value = !patata.value
+        estaabiertoelnav.value = !estaabiertoelnav.value
     }
 </script>
 <template>
-    <nav class="nav">
-        <Boton text="close" sol="material-symbols-outlined blanco" @click="togglePatata"/>
+    <nav :class="displaynav">
+        <Boton text="close" :sol="displayequis" @click="togglePatata"/>
         <div class="arriba">
             <NavHdos text="Manual de marca"/>
             <div class="enlaces">
@@ -43,6 +45,7 @@
         justify-content: space-between;
         padding: 2.5rem;
         gap: 1rem;
+        transition: 200ms ease-out;
     }
     .nav .arriba{
         display: flex;
@@ -66,6 +69,10 @@
     .nav button .equis{
         color: white;
         background-color: white;
+    }
+    
+    .nomuestra{
+        transform: translateX(-150vw);
     }
 
 </style>

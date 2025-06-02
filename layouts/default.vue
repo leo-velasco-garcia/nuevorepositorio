@@ -1,7 +1,8 @@
 <script setup>
-    import { ref, provide } from 'vue';
-    const patata = ref(true)
-    provide('patata', patata)
+    import { ref, provide, computed } from 'vue';
+    const estaabiertoelnav = ref(true);
+    provide('estaabiertoelnav', estaabiertoelnav)
+    const anchobody = computed(() => estaabiertoelnav.value ? 'secnormal' : 'secnormal ancha');
 </script>
 <template>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,9 +12,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <div>
-        <Nav :patata="patata"/>
-        <Header :patata="patata"/>
-        <div class="secnormal">
+        <Nav />
+        <Header />
+        <div :class="anchobody">
             <div class="centradora">
                 <slot/>
             </div>
@@ -50,6 +51,10 @@
         right: 0;
         top: 6.5rem;
     }
+
+.ancha {
+    width: 100vw;
+}
 .secnormal .centradora{
     display: flex;
     flex-flow: column;

@@ -1,19 +1,20 @@
 <script setup>
-    import { inject } from 'vue';
-    const patata = inject('patata')
+    import { ref, computed, inject } from 'vue';
+    const estaabiertoelnav = inject('estaabiertoelnav')
+    const displayburger = computed(() => estaabiertoelnav.value ? 'material-symbols-outlined none' : 'material-symbols-outlined');
+    const anchoheader = computed(() => estaabiertoelnav.value ? 'header' : 'header ancho');
 
     let num = Math.floor(Math.random() * 38) + 1;
     const logoheader = `/header/LogoCesida-${num}.svg`;
 
     function togglePatata() {
-        patata.value = !patata.value
-    }
+        estaabiertoelnav.value = !estaabiertoelnav.value
+    } 
 </script>
 <template>
-    <header class="header">
+    <header :class="anchoheader">
         <NuxtLink to="/"><img :src="logoheader" alt="Logotipo de Cesida"></NuxtLink>
-        <Boton text="menu" sol="material-symbols-outlined" @click="togglePatata"/>
-        <p>Header - ¿Es patata? {{ patata }}</p>
+        <Boton text="menu" :sol="displayburger" @click="togglePatata"/>
 
     </header>
 </template>
@@ -28,6 +29,10 @@
     height: 6.75rem;
     z-index: 999;
     background-color: white;
+}
+
+.ancho{
+    width: 100vw;
 }
 
 .header img {
