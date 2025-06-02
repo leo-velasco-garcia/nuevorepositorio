@@ -43,7 +43,7 @@ const subapartados = {
     ],
     '/marca': [
         { id: 'concepto', label: 'Concepto' },
-        { id: 'construccion', label: 'Construcción' },
+        { id: 'construccion', label: 'construccion' },
         { id: 'areaderespeto', label: 'Área de respeto' },
         { id: 'variantes', label: 'Variantes' },
         { id: 'minimos', label: 'Tamaños mínimos' },
@@ -54,7 +54,7 @@ const subapartados = {
         { id: 'timing', label: 'Timing' }
     ],
     '/submarca': [
-        { id: 'construccion', label: 'Construcción' },
+        { id: 'construccionsub', label: 'Construcción' },
         { id: 'versionreducida', label: 'Versión reducida' },
         { id: 'tipografiapride', label: 'Tipografía' },
         { id: 'colorpride', label: 'Tipografía +Pride Positivo' },
@@ -87,9 +87,27 @@ const apartadosVisibles = computed(() => {
                     <a class="subenlace" href="/definicion#valores">Valores</a>
                     <a class="subenlace" href="/definicion#tono">Tono</a>
                 </div>
+                <NuxtLink style="text-decoration: none;" to="/marca">
+                    <NavHtres text="Marca" />
+                </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/marca'" subenlacesdefinicion>
+                    <a class="subenlace" href="/marca#concepto">Concepto</a>
+                    <a class="subenlace" href="/marca#construccion">Construcción</a>
+                    <a class="subenlace" href="/marca#areaderespeto">Área de respeto</a>
+                    <a class="subenlace" href="/marca#variantes">Variantes</a>
+                    <a class="subenlace" href="/marca#minimos">Tamaños mínimos</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/submarca">
                     <NavHtres text="Submarca" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/submarca'" subenlacesdefinicion>
+                    <a class="subenlace" href="/submarca#construccionsub">Construcción</a>
+                    <a class="subenlace" href="/submarca#versionreducida">Versión reducida</a>
+                    <a class="subenlace" href="/submarca#tipografiapride">Tipografía</a>
+                    <a class="subenlace" href="/submarca#colorpride">Color</a>
+                    <a class="subenlace" href="/submarca#imgpride">Tratamiento de imagen</a>
+                    <a class="subenlace" href="/submarca#aplicacionespride">Aplicaciones</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/tipografia">
                     <NavHtres text="Tipografía" />
                 </NuxtLink>
