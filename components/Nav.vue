@@ -81,22 +81,12 @@ const apartadosVisibles = computed(() => {
             <div class="enlaces">
                 <NuxtLink style="text-decoration: none;" to="/definicion">
                     <NavHtres text="Definición" />
-                    <div class="subapartados" v-if="subapartados[route.path]">
-                    <a v-for="section in subapartados[route.path]" :key="section.id" :href="'#' + section.id"
-                        class="subapartado-link" style="color: white; text-decoration: none;" >
-                        {{ section.label }}
-                    </a>
+                </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/definicion'" subenlacesdefinicion>
+                    <a class="subenlace" href="/definicion#intro">Intro</a>
+                    <a class="subenlace" href="/definicion#valores">Valores</a>
+                    <a class="subenlace" href="/definicion#tono">Tono</a>
                 </div>
-                </NuxtLink>
-                <NuxtLink style="text-decoration: none;" to="/marca">
-                    <NavHtres text="Marca" />
-                    <div class="subapartados" v-if="subapartados[route.path]">
-                        <NuxtLink v-for="section in subapartados[route.path]" :key="section.id" :to="'#' + section.id"
-                            class="subapartado-link" style="color: white; text-decoration: none;" >
-                            {{ section.label }}
-                        </NuxtLink>
-                    </div>  
-                </NuxtLink>
                 <NuxtLink style="text-decoration: none;" to="/submarca">
                     <NavHtres text="Submarca" />
                 </NuxtLink>
@@ -149,6 +139,16 @@ const apartadosVisibles = computed(() => {
 .nav .subapartados {
     display: flex;
     flex-flow: column;
+    margin: 0 0 0.5rem 0;
+}
+.nav .subapartados .subenlace{
+    text-decoration: none;
+    color: #cacaca;
+    transition: 200ms ease-out;
+    padding-left: 1rem;
+}
+.nav .subapartados .subenlace:hover{
+    color: white;
 }
 
 .nav .arriba {
