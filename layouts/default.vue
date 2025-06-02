@@ -29,6 +29,7 @@
     font-weight: 400;
     color: #333333;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .nav .enlaces .router-link-active h3 {
@@ -50,6 +51,7 @@
         position: absolute;
         right: 0;
         top: 6.5rem;
+        scroll-behavior: smooth;
     }
 
 .ancha {

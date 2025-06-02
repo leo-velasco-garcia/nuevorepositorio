@@ -1,10 +1,10 @@
 <template>
     <BodyHdos text="Marca"/>
-    <BodyHtres text="Concepto" />
+    <BodyHtres text="Concepto" ident="concepto"/>
     <BodyP text="La marca está inspirada en el “juego de la vida”, un modelo creado por el matemático britanico John Horton Conway. Este modelo consiste en una retícula (con tamaño a elegir) de cuadrados encendidos y apagados (blancos y negros). Partiendo del estado inicial que se desee, cada cuadrado puede mantener su estado o cambiar al contrario en función de los ocho cuadrados vecinos según una serie de normas. Este modelo sirve como una forma de visualizar el comportamiento de un ecosistema, ya sea un grupo de virus y células o una sociedad." />
     
     
-    <BodyHtres text="Construcción" />
+    <BodyHtres text="Construcción" ident="construccion"/>
     <BodyP text="Para construir el isotipo de la marca partimos de un cuadrado." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-01.png" />
     <BodyP text="Lo dividimos en una retícula de cuatro por cuatro." />
@@ -62,14 +62,14 @@
     
 
 
-    <BodyHtres text="Área de respeto" />
+    <BodyHtres text="Área de respeto" ident="areaderespeto"/>
     <BodyP text="La medida viene determinada por el ancho y alto del isotipo." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-71.png" />
     <BodyP text="Se sigue la misma lógica para el isotipo." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-72.png" />
 
 
-    <BodyHtres text="Variantes" />
+    <BodyHtres text="Variantes" ident="variantes"/>
     <BodyP text="En aquellos casos en que el imagotipo aparece sobre fondo blanco se permite la combinación de cualquier color de la paleta en el isotipo siempre y cuando la tipografía aparezca en negro." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-29.png" />
     <BodyP text="Existe un variante monocroma en negro. " />
@@ -81,7 +81,7 @@
     <BodyP text="Y también a los fondos de color." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-70.png" />
     
-    <BodyHtres text="Tamaños mínimos" />
+    <BodyHtres text="Tamaños mínimos" ident="minimos"/>
     <BodyP text="El tamaño mínimo en pantalla es de 20px de altura, tanto para el isotipo como para el imagotipo. En soportes físicos la medida es 1 centímetro." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-75.png" />
 

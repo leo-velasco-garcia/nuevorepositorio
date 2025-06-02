@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, inject } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute } from 'vue-router'
 
 const estaabiertoelnav = inject('estaabiertoelnav')
 const displayequis = computed(() => estaabiertoelnav.value ? 'material-symbols-outlined blanco' : 'material-symbols-outlined blanco none');
@@ -9,7 +9,7 @@ function togglePatata() {
     estaabiertoelnav.value = !estaabiertoelnav.value
 }
 
-const route = useRoute();
+const route = useRoute()
 const subapartados = {
     '/aplicaciones': [
         { id: 'estaticas', label: 'Estáticas' },
@@ -69,7 +69,7 @@ const subapartados = {
     ],
 }
 const apartadosVisibles = computed(() => {
-    return subapartados[route.path] || []
+    return subapartados[route.path]
 })
 
 </script>
@@ -81,15 +81,21 @@ const apartadosVisibles = computed(() => {
             <div class="enlaces">
                 <NuxtLink style="text-decoration: none;" to="/definicion">
                     <NavHtres text="Definición" />
+                    <div class="subapartados" v-if="subapartados[route.path]">
+                    <a v-for="section in subapartados[route.path]" :key="section.id" :href="'#' + section.id"
+                        class="subapartado-link" style="color: white; text-decoration: none;" >
+                        {{ section.label }}
+                    </a>
+                </div>
                 </NuxtLink>
-                <div v-if="route.path === '/definicion'" class="subapartados">
-                        <NuxtLink v-for="(sub, index) in apartadosVisibles" :key="index" :to="`${route.path}#${sub.id}`"
-                            style="padding-left: 1rem; font-size: 0.9em; text-decoration: none; color: white;">
-                            {{ sub.label }}
-                        </NuxtLink>
-                    </div>
                 <NuxtLink style="text-decoration: none;" to="/marca">
                     <NavHtres text="Marca" />
+                    <div class="subapartados" v-if="subapartados[route.path]">
+                        <NuxtLink v-for="section in subapartados[route.path]" :key="section.id" :to="'#' + section.id"
+                            class="subapartado-link" style="color: white; text-decoration: none;" >
+                            {{ section.label }}
+                        </NuxtLink>
+                    </div>  
                 </NuxtLink>
                 <NuxtLink style="text-decoration: none;" to="/submarca">
                     <NavHtres text="Submarca" />
@@ -139,7 +145,8 @@ const apartadosVisibles = computed(() => {
     gap: 1rem;
     transition: 200ms ease-out;
 }
-.nav .subapartados{
+
+.nav .subapartados {
     display: flex;
     flex-flow: column;
 }
