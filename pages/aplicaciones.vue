@@ -7,9 +7,9 @@
     <BodyImagen text="/aplicaciones/COSAS PARA MANUAL CESIDA-55.png" />
     <BodyHcinco text="Jet"/>
     <BodyImagen text="/aplicaciones/COSAS PARA MANUAL CESIDA-56.png" />
-    <BodyHcinco text="Mupi"/>
+    <BodyHcinco text="Cartel A3"/>
     <BodyImagen text="/aplicaciones/COSAS PARA MANUAL CESIDA-57.png" />
-    <BodyHcinco text="Mupi"/>
+    <BodyHcinco text="Cartel A3"/>
     <BodyImagen text="/aplicaciones/COSAS PARA MANUAL CESIDA-58.png" />
     <BodyHcinco text="Carteles A3"/>
     <BodyImagen text="/aplicaciones/COSAS PARA MANUAL CESIDA-59.png" />

@@ -1,34 +1,30 @@
 <template>
     <BodyHdos text="Movimiento"/>
     <BodyHtres text="Físicas" ident="fisicas"/>
-    <BodyP text="Hemos escogido unas curvas de velocidad que transmitan los valores y el tono de la marca. Para ello hemos decidido utilizar un movimiento ease out con velocidad de salida 76% y velocidad de entrada 16%." />
+    <BodyP text="Hemos escogido unas curvas de velocidad que transmitan los valores y el tono de la marca. Para ello, hemos decidido utilizar un movimiento ease out con velocidad de salida 76% y velocidad de entrada 16%." />
 
     <BodyImagen text="/movimiento/COSAS PARA MANUAL CESIDA-53.png" />
     <BodyHtres text="Sistema" ident="sistema"/>
     <BodyHcuatro text="Tipos de entrada" />
-    <BodyHcinco text="Entrada de rotación de derecha a izquierda" />
-    <BodyP text="Este primer tipo de entrada se determina haciendo un salto de escala de 0 a 100%, que a su vez se combina con una rotación de derecha a izquierda y de 0 a -90°." />
-    <BodyHcinco text=" Entrada de rotación de izquierda a derecha" />
-    <BodyP text=" Teniendo en cuenta que no todas las animaciones iban a entrar por el mismo lado de la pantalla se determinó esta variante de entrada para sustituir a la primera en caso de que entre por la izquierda de la pantalla. Se ejecuta con una escala de 0 a 100% y una rotación de izquierda a derecha y de 0 a 90°." />
-    <BodyHcinco text="Entrada recta de derecha a izquierda" />
-    <BodyP text="Esta entrada fue otro tipo de solución para algunas animaciones que era más aconsejable quitar el movimiento principal para que no entorpeciese en la legibilidad. Se recrea con un posicionamiento basado en el espacio de keyframes determinado por si es una animación grande o pequeña." />
-    <BodyHcinco text=" Entrada recta de izquierda a derecha" />
-    <BodyP text="Variación de la entrada anterior, cambiando el posicionamiento de izquierda a derecha." />
+    <BodyHcinco text="Entrada por rotación" />
+    <BodyP text="Este primer tipo de entrada combina un cambio en la escala de 0% a 100% con una rotación de 90° en el sentido en el que la parte superior de la unidad básica se acerque al centro de la composición (horario si entra desde la izquierda, antihorario si lo hace desde la derecha)." />
+    <BodyHcinco text="Entrada por deslizamiento" />
+    <BodyP text="Esta alternativa ha sido creada para animaciones en las que la rotación entorpece la legibilidad. Se define como un cambio de posición que durará uno de los dos números de keyframes (definidos en el apartado de timing) en función de si es una animación grande o pequeña." />
 
     
     <BodyHcuatro text="Tipos de salida" />
-    <BodyP text="Una vez animada la entrada se determinó como deberían finalizar las animaciones, para ello se crearon dos tipos de salidas que se pueden complementar con los diferentes tipos de entrada." />
+    <BodyP text="Las dos posibles salidas explicadas a continuación pueden ser combinadas indistintamente con cualquiera de las entradas." />
     <BodyHcinco text="Salida por opacidad" />
-    <BodyP text="Se utiliza cuando la animación entra con las variantes de rotación de izquierda a derecha o derecha a izquierda. Su funcionamiento explicado en el manual ofrece un desvanecimiento de opacidad de 100 a 0%." />
-    <BodyHcinco text="Salida por plano" />
-    <BodyP text="Se complementa con las entradas rectas de la marca, se crea con la distancia de fotogramas establecidos en el manual, en los que la unidad básica desaparece de la pantalla con un movimiento de posición con las curvas ajustadas." />
+    <BodyP text="Una vez la unidad básica ha quedado sola (si es que había más elementos), se desvanece cambiando su opacidad del 100% al 0%." />
+    <BodyHcinco text="Salida por deslizamiento" />
+    <BodyP text="Al igual que la entrada por deslizamiento, consiste en un cambio de posición, pero en este caso lleva a la unidad básica fuera de la composición." />
 
     <BodyHtres text="Timing" ident="timing"/>
-    <BodyP text="Se nos planteó el problema de las velocidades aplicadas en función al tamaño y la visibilidad en pantalla según diferentes animaciones, la respuesta a este problema fué plantear diferentes timings en función al formato de la animación que se vaya a plantear." />
+    <BodyP text="Los distintos tamaños de un elemento pueden hacer que una misma velocidad a los ojos del espectador parezca diferente. La solución es establecer dos posibilidades (ninguna de ellas excluye del uso de las curvas antes mencionadas)." />
     <BodyHcuatro text=" Animación de formato grande" />
-    <BodyP text="Para las animaciones de grandes dimensiones como por ejemplo la formación del logo se estableció que el movimiento de la posición de los keyframes debería de estar separado por 13 fotogramas cada keyframe, además de aplicar las curvas correspondientes del sistema audiovisual." />
+    <BodyP text="Para las animaciones de grandes dimensiones se establece que los keyframes deben de estar separados por 13 fotogramas. Un ejemplo es la formación del imagotipo." />
     <BodyHcuatro text="Animación de formato pequeño" />
-    <BodyP text="En este caso el principal ejemplo es la mosca en el cuál se determinó que el espacio entre keyframes de posición debía de ser 8 fotogramas ya que este tipo de animaciones deben ir más rápido por el tipo de animación que és y el espacio que ocupa en la pantalla." />
+    <BodyP text="El menor tamaño en pantalla hace necesario que se aceleren los tiempos, usando 8 fotogramas entre cada uno de los keyframes. Un ejemplo es la formación de la mosca." />
 
     <BodyHtres text="Muestras" ident="muestras"/>
     <BodyHcinco text="Formación de Imagotipo"/>

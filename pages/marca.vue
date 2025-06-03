@@ -1,7 +1,7 @@
 <template>
     <BodyHdos text="Marca"/>
     <BodyHtres text="Concepto" ident="concepto"/>
-    <BodyP text="La marca está inspirada en el “juego de la vida”, un modelo creado por el matemático britanico John Horton Conway. Este modelo consiste en una retícula (con tamaño a elegir) de cuadrados encendidos y apagados (blancos y negros). Partiendo del estado inicial que se desee, cada cuadrado puede mantener su estado o cambiar al contrario en función de los ocho cuadrados vecinos según una serie de normas. Este modelo sirve como una forma de visualizar el comportamiento de un ecosistema, ya sea un grupo de virus y células o una sociedad." />
+    <BodyP text="La marca está inspirada en el “juego de la vida”, un modelo creado por el matemático británico John Horton Conway. Este modelo consiste en una retícula (con tamaño a elegir) de cuadrados encendidos y apagados (blancos y negros). Partiendo del estado inicial que se desee, cada cuadrado puede mantener su estado o cambiar al contrario en función del estado de los ocho cuadrados. Este modelo sirve como una forma de visualizar el comportamiento de un ecosistema, ya sea un grupo de virus y células o una sociedad." />
     
     
     <BodyHtres text="Construcción" ident="construccion"/>
@@ -15,17 +15,17 @@
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-04.png" />
     <BodyP text="Las dimensiones de estos cuadrados más pequeños nos darán las medidas de los círculos necesarios para crear el isotipo." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-05.png" />
-    <BodyP text="De esta manera llegamos a las unidades básicas que estructuran todo el sistema." />
+    <BodyP text="De esta manera, llegamos a las unidades básicas que estructuran todo el sistema." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-06.png" />
     <BodyP text="A continuación, se muestran las reglas de uso para componer los isotipos." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-07.png" />
-    <BodyP text="Estos seis cuadrados son de uso obligatorio y deben de estar presentes en todas las combinaciones." />
+    <BodyP text="Estos seis cuadrados son de uso obligatorio y deben estar presentes en todas las combinaciones." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-08.png" />
-    <BodyP text="Estos tres cuadrados son prescindibles, pudiendo elegirse arbitrariamente si aparecen o no." />
+    <BodyP text="Estos tres cuadrados son prescindibles, pudiendo elegirse arbitrariamente cuándo aparecen." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-09.png" />
     <BodyP text="Por último, al menos uno de estos dos debe estar siempre presente." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-10.png" />
-    <BodyP text="Cuando contamos con dos unidades básicas adyacentes vertical u horizontalmente deben estar unidas. " />
+    <BodyP text="Cuando contamos con dos unidades básicas adyacentes (vertical u horizontalmente) deben estar unidas. " />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-11.png" />
     <BodyP text="Para ello, trazamos dos líneas rectas de la siguiente manera." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-12.png" />
@@ -47,11 +47,11 @@
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-20.png" />
     <BodyP text="Pero una tercera está ausente, y es que estas uniones diagonales no son obligatorias." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-21.png" />
-    <BodyP text="Con la excepción de que nunca puede quedar una unidad sola, llevando al sentido más literal los valores de Cesida. " />
+    <BodyP text="Con la excepción de que nunca puede quedar una unidad sola, llevando a la forma más literal los valores de Cesida. " />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-22.png" />
     <BodyP text="Con todo lo explicado llegamos a este isotipo, uno entre 38 posibles." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-23.png" />
-    <BodyP text="Esta variabilidad permite llevar a la gráfica la diversidad que alberga Cesida, tanto si hablamos de entidades como si hablamos de personas." />
+    <BodyP text="Esta variabilidad permite llevar a la gráfica la diversidad que caracteriza a Cesida, tanto si hablamos de entidades como si hablamos de personas." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-24.png" />
     <BodyP text="Para la composición del imagotipo se ha seleccionado TT Firs Neue Trial Var Roman, en peso Medium." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-25.png" />
@@ -82,7 +82,7 @@
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-70.png" />
     
     <BodyHtres text="Tamaños mínimos" ident="minimos"/>
-    <BodyP text="El tamaño mínimo en pantalla es de 20px de altura, tanto para el isotipo como para el imagotipo. En soportes físicos la medida es 1 centímetro." />
+    <BodyP text="El tamaño mínimo en pantalla es de 20px de altura, tanto para el isotipo como para el imagotipo. En soportes físicos la medida mínima para la altura es de 1 centímetro." />
     <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-75.png" />
 
 
