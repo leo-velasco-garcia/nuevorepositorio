@@ -1,6 +1,5 @@
 <template>
     <BodyHdos text="Submarca"/>
-    <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-31.png" />
 
     <BodyHtres text="Construcción" ident="construccionsub"/>
     <BodyP text="El logotipo se construye en base a una retícula cuya medida es la mitad del ancho de una unidad básica. Está compuesto por la tipografía que se explicará más adelante, y entre cada una de las letras hay media unidad básica (es decir, un paso en la retícula)." />
@@ -18,7 +17,7 @@
 
     <BodyHtres text="Color" ident="colorpride"/>
     <BodyP text="El +Pride Positivo ve reducida la paleta de cesida al melocotón (con sus variantes) y toda la escala de grises. Los fondos serán siempre blancos y el logotipo aparecerá en el negro de la marca. El + usa el melocotón principal, a excepción de cuando pisa a una imagen, que debe usar el melocotón oscuro." />
-    <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-77.png" />
+    <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-31.png" />
 
     <BodyHtres text="Positivo y negativo" ident="positivopride"/>
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-77.png" />
@@ -29,6 +28,8 @@
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-41.png" />
 
     <BodyHtres text="Aplicaciones" ident="aplicacionespride"/>
+    <BodyHcinco text="Jet"/>
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-64.png" />
+    <BodyHcinco text="Carrusel"/>
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-65.png" />
 </template>

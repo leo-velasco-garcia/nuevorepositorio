@@ -9,7 +9,7 @@
     
     <BodyHtres text="Estilos web" ident="estilosweb"/>
     <BodyP text="Definimos unos estilos de párrafo de cara a la web que permiten generar una jerarquía clara. " />
-    <BodyImagen text="/tipografia/COSAS PARA MANUAL CESIDA-33.png" />
+    <BodyImagen text="/tipografia/COSAS PARA MANUAL CESIDA-78.png" />
     
     <BodyHtres text="Comportamiento en aplicaciones estáticas" ident="comportipo"/>
     <BodyP text="Para las aplicaciones físicas, estos estilos fueron adaptados" />

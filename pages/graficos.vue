@@ -24,7 +24,7 @@
     <BodyImagen text="/graficos/COSAS PARA MANUAL CESIDA-48.png" />
 
     <BodyP text="Estos patrones serán creados a través de una retícula de módulos y dejarán posibilidad de crear combinaciones irregulares o más simétricas a gusto del creador de ellas, de forma que deja un abanico más amplio de posibilidades a generar." />
-    <BodyImagen text="/graficos/COSAS PARA MANUAL CESIDA-49.png" />
+    <BodyImagen text="/graficos/COSAS PARA MANUAL CESIDA-79.png" />
     
     <BodyHtres text="Iconos" ident="iconos"/>
     <BodyP text="También se ha definido una retícula a raíz de estos módulos creados para el sistema de siete por siete para la creación de iconografía para implementar en el sistema. A modo de ejemplo y en la marca se puede ver su uso a través del creado para representar el corazón de forma gráfica y coherente con el sistema." />

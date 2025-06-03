@@ -1,5 +1,5 @@
 <template>
-    <BodyHdos text="Definición" />
+    <BodyHdos text="Definición"/>
     
     <BodyHtres text="Introducción e intención" ident="intro"/>
     <BodyP text="El proyecto trata de estructurar un sistema dinámico para el rediseño de marca de la organización Cesida. Ésta es una coordinadora estatal que organiza a 76 entidades que representan a 120 organizaciones en toda España a nivel nacional que abordan la realidad del VIH y sida en nuestro país." />

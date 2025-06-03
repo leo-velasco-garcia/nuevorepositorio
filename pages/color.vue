@@ -7,11 +7,11 @@ La fuente a la que acudimos fue “La paleta perfecta”, un libro de Sara Calda
 " />
 
     <BodyHtres text="Color corporativo" ident="colorcorporativo" />
-    <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-01.png" />
+    <BodyImagen text="/color/COSAS PARA MANUAL CESIDA-80.png" />
 
     <BodyHtres text="Colores secundarios" ident="coloressecundarios" />
-    <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-01.png" />
+    <BodyImagen text="/color/COSAS PARA MANUAL CESIDA-81.png" />
 
     <BodyHtres text="Escala de grises" ident="escalagrises" />
-    <BodyImagen text="/marca/COSAS PARA MANUAL CESIDA-01.png" />
+    <BodyImagen text="/color/COSAS PARA MANUAL CESIDA-82.png" />
 </template>

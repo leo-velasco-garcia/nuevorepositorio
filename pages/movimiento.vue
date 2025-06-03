@@ -30,4 +30,12 @@
     <BodyHcuatro text="Animación de formato pequeño" />
     <BodyP text="En este caso el principal ejemplo es la mosca en el cuál se determinó que el espacio entre keyframes de posición debía de ser 8 fotogramas ya que este tipo de animaciones deben ir más rápido por el tipo de animación que és y el espacio que ocupa en la pantalla." />
 
+    <BodyHtres text="Muestras" ident="muestras"/>
+    <BodyHcinco text="Formación de Imagotipo"/>
+    <BodyHcinco text="Mosca"/>
+    <BodyHcinco text="Sobreimpresión"/>
+    <BodyHcinco text="Nombre y Cargo"/>
+    <BodyHcinco text="Separador"/>
+    <BodyHcinco text="Copyright"/>
+    <BodyHcinco text="Cierre"/>
 </template>

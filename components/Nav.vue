@@ -10,67 +10,6 @@ function togglePatata() {
 }
 
 const route = useRoute()
-const subapartados = {
-    '/aplicaciones': [
-        { id: 'estaticas', label: 'Estáticas' },
-        { id: 'dinamicas', label: 'Dinámicas' },
-        { id: 'web', label: 'Web' }
-    ],
-    '/color': [
-        { id: 'psicologia', label: 'Psicología del color' },
-        { id: 'colorcorporativo', label: 'Color corporativo' },
-        { id: 'coloressecundarios', label: 'Colores secundarios' },
-        { id: 'escalagrises', label: 'Escala de grises' }
-    ],
-    '/definicion': [
-        { id: 'intro', label: 'Introducción e intención' },
-        { id: 'valores', label: 'Valores' },
-        { id: 'tono', label: 'Tono' }
-    ],
-    '/espaciado': [
-        { id: 'usomargenes', label: 'Uso de márgenes y tamaños mínimos' },
-        { id: 'reticulas', label: 'Retículas' },
-        { id: 'usomargenvideo', label: 'Uso de márgenes en vídeo' }
-    ],
-    '/graficos': [
-        { id: 'formas', label: 'Formas' },
-        { id: 'patrones', label: 'Patrones' },
-        { id: 'iconos', label: 'Iconos' }
-    ],
-    '/imagen': [
-        { id: 'tipoimg', label: 'Tipo de imagen' },
-        { id: 'tratamientoimg', label: 'Tratamiento de imagen' }
-    ],
-    '/marca': [
-        { id: 'concepto', label: 'Concepto' },
-        { id: 'construccion', label: 'construccion' },
-        { id: 'areaderespeto', label: 'Área de respeto' },
-        { id: 'variantes', label: 'Variantes' },
-        { id: 'minimos', label: 'Tamaños mínimos' },
-    ],
-    '/movimiento': [
-        { id: 'fisicas', label: 'Físicas' },
-        { id: 'sistema', label: 'Sistema' },
-        { id: 'timing', label: 'Timing' }
-    ],
-    '/submarca': [
-        { id: 'construccionsub', label: 'Construcción' },
-        { id: 'versionreducida', label: 'Versión reducida' },
-        { id: 'tipografiapride', label: 'Tipografía' },
-        { id: 'colorpride', label: 'Tipografía +Pride Positivo' },
-        { id: 'postivopride', label: 'Positivo y negativo' },
-        { id: 'imgpride', label: 'Tratamiento de imagen' },
-        { id: 'aplicacionespride', label: 'Aplicaciones' },
-    ],
-    '/tipografia': [
-        { id: 'textocorrido', label: 'Texto corrido' },
-        { id: 'estilosweb', label: 'Estilos web' },
-        { id: 'comportipo', label: 'Comportamiento en aplicaciones estáticas' }
-    ],
-}
-const apartadosVisibles = computed(() => {
-    return subapartados[route.path]
-})
 
 </script>
 <template>
@@ -156,6 +95,7 @@ const apartadosVisibles = computed(() => {
                     <a class="subenlace" href="/movimiento#fisicas">Físicas</a>
                     <a class="subenlace" href="/movimiento#sistema">Sistema</a>
                     <a class="subenlace" href="/movimiento#timing">Timing</a>
+                    <a class="subenlace" href="/movimiento#muestras">Muestras</a>
                 </div>
                 <NuxtLink style="text-decoration: none;" to="/aplicaciones">
                     <NavHtres text="Aplicaciones" />
