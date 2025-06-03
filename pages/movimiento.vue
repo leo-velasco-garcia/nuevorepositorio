@@ -35,6 +35,7 @@
     <BodyHcinco text="Mosca"/>
     <BodyHcinco text="Sobreimpresión"/>
     <BodyHcinco text="Nombre y Cargo"/>
+    <Video text="https://drive.google.com/file/d/1quqZHAaBRdxBI3RclyO9KonE8SUgLAJY/preview"/>
     <BodyHcinco text="Separador"/>
     <BodyHcinco text="Copyright"/>
     <BodyHcinco text="Cierre"/>
