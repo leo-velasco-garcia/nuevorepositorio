@@ -2,8 +2,7 @@
     <BodyHdos text="Movimiento"/>
     <BodyHtres text="Físicas" ident="fisicas"/>
     <BodyP text="Hemos escogido unas curvas de velocidad que transmitan los valores y el tono de la marca. Para ello, hemos decidido utilizar un movimiento ease out con velocidad de salida 76% y velocidad de entrada 16%." />
-
-    <BodyImagen text="/movimiento/COSAS PARA MANUAL CESIDA-53.png" />
+    <BodyImagen text="/movimiento/nuevaAnimacion.gif" />
     <BodyHtres text="Sistema" ident="sistema"/>
     <BodyHcuatro text="Tipos de entrada" />
     <BodyHcinco text="Entrada por rotación" />
