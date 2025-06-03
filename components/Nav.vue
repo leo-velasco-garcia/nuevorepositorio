@@ -8,7 +8,6 @@ const displaynav = computed(() => estaabiertoelnav.value ? 'nav' : 'nav nomuestr
 function togglePatata() {
     estaabiertoelnav.value = !estaabiertoelnav.value
 }
-
 const route = useRoute()
 
 </script>
@@ -121,13 +120,21 @@ const route = useRoute()
     left: 0;
     top: 0;
     height: 100vh;
-    width: 20rem;
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     padding: 2.5rem;
     gap: 1rem;
     transition: 200ms ease-out;
+    z-index: 1099;
+}
+
+@media (min-width: 760px) {
+    .nav{
+        max-width: 20rem;
+    }
+  /* … */
 }
 
 .nav .subapartados {

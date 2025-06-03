@@ -1,6 +1,6 @@
 <script setup>
     import { ref, provide, computed } from 'vue';
-    const estaabiertoelnav = ref(true);
+    const estaabiertoelnav = ref(false);
     provide('estaabiertoelnav', estaabiertoelnav)
     const anchobody = computed(() => estaabiertoelnav.value ? 'secnormal' : 'secnormal ancha');
 </script>
