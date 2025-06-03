@@ -14,7 +14,7 @@
 
     <BodyHtres text="Color" ident="colorpride"/>
 
-    <BodyHtres text="Positivo y negativo" ident="postivopride"/>
+    <BodyHtres text="Positivo y negativo" ident="positivopride"/>
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-77.png" />
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-76.png" />
 

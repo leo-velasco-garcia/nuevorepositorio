@@ -105,30 +105,66 @@ const apartadosVisibles = computed(() => {
                     <a class="subenlace" href="/submarca#versionreducida">Versión reducida</a>
                     <a class="subenlace" href="/submarca#tipografiapride">Tipografía</a>
                     <a class="subenlace" href="/submarca#colorpride">Color</a>
+                    <a class="subenlace" href="/submarca#positivopride">Positivo y negativo</a>
                     <a class="subenlace" href="/submarca#imgpride">Tratamiento de imagen</a>
                     <a class="subenlace" href="/submarca#aplicacionespride">Aplicaciones</a>
                 </div>
                 <NuxtLink style="text-decoration: none;" to="/tipografia">
                     <NavHtres text="Tipografía" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/tipografia'" subenlacesdefinicion>
+                    <a class="subenlace" href="/tipografia#textocorrido">Texto corrido</a>
+                    <a class="subenlace" href="/tipografia#estilosweb">Versión reducida</a>
+                    <a class="subenlace" href="/tipografia#comportipo">Tipografía</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/color">
                     <NavHtres text="Color" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/color'" subenlacesdefinicion>
+                    <a class="subenlace" href="/color#psicologia">Psicología</a>
+                    <a class="subenlace" href="/color#colorcorporativo">Color corporativo</a>
+                    <a class="subenlace" href="/color#coloressecundarios">Colores secundarios</a>
+                    <a class="subenlace" href="/color#escalagrises">Escala de grises</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/espaciado">
                     <NavHtres text="Espaciado" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/espaciado'" subenlacesdefinicion>
+                    <a class="subenlace" href="/espaciado#usomargenes">Uso de márgenes</a>
+                    <a class="subenlace" href="/espaciado#reticulas">Retículas</a>
+                    <a class="subenlace" href="/espaciado#usomargenvideo">Uso de márgenes en vídeo</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/imagen">
                     <NavHtres text="Imagen" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/imagen'" subenlacesdefinicion>
+                    <a class="subenlace" href="/imagen#tipoimg">Tipo de imagen</a>
+                    <a class="subenlace" href="/imagen#tratamientoimg">Tratamiento de imagen</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/graficos">
                     <NavHtres text="Gráficos" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/graficos'" subenlacesdefinicion>
+                    <a class="subenlace" href="/graficos#formas">Formas</a>
+                    <a class="subenlace" href="/graficos#patrones">Patrones</a>
+                    <a class="subenlace" href="/graficos#iconos">Iconos</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/movimiento">
                     <NavHtres text="Movimiento" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/movimiento'" subenlacesdefinicion>
+                    <a class="subenlace" href="/movimiento#fisicas">Físicas</a>
+                    <a class="subenlace" href="/movimiento#sistema">Sistema</a>
+                    <a class="subenlace" href="/movimiento#timing">Timing</a>
+                </div>
                 <NuxtLink style="text-decoration: none;" to="/aplicaciones">
                     <NavHtres text="Aplicaciones" />
                 </NuxtLink>
+                <div class="subapartados" v-if="$route.path === '/aplicaciones'" subenlacesdefinicion>
+                    <a class="subenlace" href="/aplicaciones#estaticas">Estáticas</a>
+                    <a class="subenlace" href="/aplicaciones#dinamicas">Dinámicas</a>
+                    <a class="subenlace" href="/aplicaciones#web">Web</a>
+                </div>
             </div>
         </div>
         <div class="nombres">
