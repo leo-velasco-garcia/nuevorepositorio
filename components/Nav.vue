@@ -103,6 +103,7 @@ const route = useRoute()
                     <a class="subenlace" href="/aplicaciones#estaticas">Estáticas</a>
                     <a class="subenlace" href="/aplicaciones#dinamicas">Dinámicas</a>
                     <a class="subenlace" href="/aplicaciones#web">Web</a>
+                    <a class="subenlace" href="/aplicaciones#videoresumen">Vídeo resumen</a>
                 </div>
             </div>
         </div>

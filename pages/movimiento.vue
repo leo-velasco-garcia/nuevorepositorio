@@ -32,11 +32,17 @@
 
     <BodyHtres text="Muestras" ident="muestras"/>
     <BodyHcinco text="Formación de Imagotipo"/>
+    <Video text="https://drive.google.com/file/d/10hwOMd2Rakyv2sojajrcM6-pH5zFM5Sy/preview"/>
     <BodyHcinco text="Mosca"/>
+    <Video text="https://drive.google.com/file/d/1dFVAMKMhDpu8JUOHKRwMmz7H-VQWYr8N/preview"/>
     <BodyHcinco text="Sobreimpresión"/>
+    <Video text="https://drive.google.com/file/d/1rFz4DkZEfQB80j5y5lSdfvWPxet5pGxi/preview"/>
     <BodyHcinco text="Nombre y Cargo"/>
-    <Video text="https://drive.google.com/file/d/1quqZHAaBRdxBI3RclyO9KonE8SUgLAJY/preview"/>
+    <Video text="https://drive.google.com/file/d/1FCeCpu6clj10Xg4Zd_odjkpdmvHzu0C6/preview"/>
     <BodyHcinco text="Separador"/>
+    <Video text="https://drive.google.com/file/d/1AYdW6dfFcgQ3elAgd1-dQAvBIWHOueyI/preview"/>
     <BodyHcinco text="Copyright"/>
+    <Video text="https://drive.google.com/file/d/1MD3N-intc8GvIKFNG1Y847xzei-kqJ5Y/preview"/>
     <BodyHcinco text="Cierre"/>
+    <Video text="https://drive.google.com/file/d/1PQ9SXoVravmIF-CV-dWttG03XPzVupeP/preview"/>
 </template>

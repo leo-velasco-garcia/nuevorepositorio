@@ -32,4 +32,7 @@
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-64.png" />
     <BodyHcinco text="Carrusel"/>
     <BodyImagen text="/submarca/COSAS PARA MANUAL CESIDA-65.png" />
+    <BodyHcinco text="Separador Aplicación dinámica"/>
+    <Video text="https://drive.google.com/file/d/1Dc4tyhnrbgnDvU_-Q09UauXmIwcArIRj/preview"/>
+
 </template>
